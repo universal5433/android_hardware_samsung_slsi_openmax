@@ -19,6 +19,7 @@ LOCAL_CFLAGS := \
     -Wno-undefined-inline
 
 LOCAL_ARM_MODE := arm
+LOCAL_VENDOR_MODULE := true
 
 LOCAL_STATIC_LIBRARIES := libExynosOMX_OSAL libExynosOMX_Basecomponent
 LOCAL_SHARED_LIBRARIES := libc libdl libcutils libutils liblog \

@@ -11,6 +11,7 @@ LOCAL_SRC_FILES := \
 LOCAL_PRELINK_MODULE := false
 LOCAL_MODULE := libOMX.Exynos.WMA.Decoder
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/omx
+LOCAL_VENDOR_MODULE := true
 
 LOCAL_CFLAGS := \
     -Wno-enum-conversion \

@@ -7,6 +7,7 @@ LOCAL_SRC_FILES := \
 LOCAL_MODULE := libExynosOMX_Adec
 LOCAL_ARM_MODE := arm
 LOCAL_MODULE_TAGS := optional
+LOCAL_VENDOR_MODULE := true
 
 LOCAL_STATIC_LIBRARIES := libseirenhw
 
