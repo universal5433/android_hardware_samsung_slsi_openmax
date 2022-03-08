@@ -70,8 +70,8 @@
 #define  IS_CUSTOM_COMPONENT(name) (((char)(name[((int)sizeof(PREFIX_COMPONENT_NAME))-1]) >= 0x61)? OMX_TRUE:OMX_FALSE)
 
 #define IS_64BIT_OS                 (((sizeof(int) != sizeof(void *))? OMX_TRUE:OMX_FALSE))
-#define EXYNOS_OMX_INSTALL_PATH     "/system/lib/omx/"
-#define EXYNOS_OMX64_INSTALL_PATH   "/system/lib64/omx/"
+#define EXYNOS_OMX_INSTALL_PATH     "/vendor/lib/omx/"
+#define EXYNOS_OMX64_INSTALL_PATH   "/vendor/lib64/omx/"
 
 typedef enum _EXYNOS_CODEC_TYPE
 {
